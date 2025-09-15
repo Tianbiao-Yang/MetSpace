@@ -42,9 +42,8 @@ The scoring method:
 
 ## 5. Environment Setup
 ---------------------
-- Python 3.x
-- Install dependencies: `pip install transformers torch tokenizers numpy`
-- Use a virtual environment for dependency management.
+- Python 3.11.5
+- Install dependencies: To set up the environment, you can utilize the `../code/environment.yaml` file, representing the conda environment for this project. Alternatively, you have the option to deploy the environment using the `../code/requirement.txt` file.
 
 ## 6. Contact
 ----------
