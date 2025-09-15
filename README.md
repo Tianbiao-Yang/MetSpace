@@ -19,9 +19,9 @@ The goal of this project is to develop a generative model for chemical structure
 - Location:
   - Place data files in the `../data/` directory relative to the scripts.
 
-## 3. Pre-Training and Fine-tuning the Model
+## 3. Pre-Training and Fine-tuning the MetLLM Model
 ---------------------
-Run the training script: `python Training.py`
+Run the training script: `python MetSpace_Training.py`
 The script:
 - Builds a character-level Byte Pair Encoding (BPE) tokenizer.
 - Pretrains the GPT-2 model on the HMDB dataset.
@@ -30,7 +30,7 @@ The script:
 
 ## 4. MetLLM Evaluation
 ----------------------------
-After training, you can evaluate SMILES strings using the scoring script: `python Predict.py`
+After training, you can evaluate SMILES strings using the scoring script: `python MetSpace_Predict.py`
 - Inputs:
   - `../data/Smiles_Input.txt` (SMILES strings to score)
 - Outputs:
