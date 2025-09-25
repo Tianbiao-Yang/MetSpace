@@ -45,7 +45,13 @@ The scoring method:
 - Python 3.11.5
 - Install dependencies: To set up the environment, you can utilize the `../code/environment.yaml` file, representing the conda environment for this project. Alternatively, you have the option to deploy the environment using the `../code/requirement.txt` file.
 
-## 6. Contact
+
+## 6. AttenRT
+---------------------
+- Two-Stage AttenRT Model for Retention Time Prediction (https://github.com/Tianbiao-Yang/AttenRT)
+ 
+
+## 7. Contact
 ----------
 For questions or feedback, please contact: tianbiao@hku.hk.
 
