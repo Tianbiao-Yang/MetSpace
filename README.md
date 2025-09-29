@@ -53,6 +53,6 @@ The scoring method:
 
 ## 7. Contact
 ----------
-For questions or feedback, please contact: tianbiao@hku.hk.
+The code repository is available at DOI: 10.5281/zenodo.17223276 on Zenodo. For questions or feedback, please contact: tianbiao@hku.hk.
 
 
