@@ -1,6 +1,6 @@
 # MetSpace
 
-AI-Driven Reconstruction of the Bile Acid Metabolome.
+AI-Driven Reconstruction of the Human Bile Acid Sub-Metabolome.
 
 This project provides tools for training a GPT-2 based model to generate and evaluate SMILES strings, which are representations of chemical molecules. It includes scripts for data preprocessing, model training, fine-tuning, and scoring SMILES strings based on their likelihood under the trained model.
 
