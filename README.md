@@ -2,7 +2,7 @@
 
 AI-Driven Reconstruction of the Human Bile Acid Sub-Metabolome.
 
-This project provides tools for training a GPT-2 based model to generate and evaluate SMILES strings, which are representations of chemical molecules. It includes scripts for data preprocessing, model training, fine-tuning, and scoring SMILES strings based on their likelihood under the trained model.
+This project provides tools for training a transformer-based model (GPT-2) to generate and evaluate SMILES strings, which are representations of chemical molecules. It includes scripts for data preprocessing, model training, fine-tuning, and scoring SMILES strings based on their likelihood under the trained model.
 
 ## 1. Project Overview
 -------------------
