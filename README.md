@@ -43,7 +43,8 @@ The scoring method:
 ## 5. Environment Setup
 ---------------------
 - Python 3.11.5
-- Install dependencies: To set up the environment, you can utilize the `../code/environment.yaml` file, representing the conda environment for this project. Alternatively, you have the option to deploy the environment using the `../code/requirement.txt` file. Typical installation on a standard desktop computer takes about one to two hours.
+- Install dependencies: To set up the environment, you can utilize the `../code/environment.yaml` file, representing the conda environment for this project. Alternatively, you have the option to deploy the environment using the `../code/requirement.txt` file.
+- Typical installation on a standard desktop computer takes about one to two hours.
 
 ## 6. AttenRT
 ---------------------
