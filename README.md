@@ -17,25 +17,25 @@ The goal of this project is to develop a generative model for chemical structure
 - Format:
   - Each line should contain a single SMILES string.
 - Location:
-  - Place data files in the `../data/` directory relative to the scripts.
+  - Place data files in the `./data/` directory relative to the scripts.
 
 ## 3. Pre-Training and Fine-tuning the MetLLM Model
 ---------------------
-Run the training script: `python ../code/MetSpace_Training.py`
+Run the training script: `python ./code/MetSpace_Training.py`
 The script:
 - Builds a character-level Byte Pair Encoding (BPE) tokenizer.
 - Pretrains the GPT-2 model on the HMDB dataset.
 - Fine-tunes the model on the BAs dataset.
-- Saves models at each epoch in the `../saved_models/` directory.
+- Saves models at each epoch in the `./saved_models/` directory.
 - Expected run time for demo on a "normal" desktop computer about 7-15 days.
 
 ## 4. MetLLM Evaluation
 ----------------------------
-After training, you can evaluate SMILES strings using the scoring script: `python ../code/MetSpace_Predict.py`
+After training, you can evaluate SMILES strings using the scoring script: `python ./code/MetSpace_Predict.py`
 - Inputs:
-  - `../data/Smiles_Input.txt` (SMILES strings to score)
+  - `./data/Smiles_Input.txt` (SMILES strings to score)
 - Outputs:
-  - `../result/Smiles_Input_scores_test.txt` (SMILES with their scores)
+  - `./result/Smiles_Input_scores_test.txt` (SMILES with their scores)
 - Expected run time for demo on a "normal" desktop computer about 5-10 min.
 
 The scoring method:
@@ -45,7 +45,7 @@ The scoring method:
 ## 5. Environment Setup
 ---------------------
 - Python 3.11.5
-- Install dependencies: To set up the environment, you can utilize the `../code/environment.yaml` file, representing the conda environment for this project (`conda env create -f ../code/environment.yaml`). Alternatively, you have the option to deploy the environment using the `../code/requirement.txt` file.
+- Install dependencies: To set up the environment, you can utilize the `./code/environment.yaml` file, representing the conda environment for this project (`conda env create -f ./code/environment.yaml`). Alternatively, you have the option to deploy the environment using the `./code/requirement.txt` file.
 - Typical installation on a standard desktop computer takes about one to two hours.
 
 ## 6. AttenRT
