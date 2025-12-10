@@ -27,6 +27,7 @@ The script:
 - Pretrains the GPT-2 model on the HMDB dataset.
 - Fine-tunes the model on the BAs dataset.
 - Saves models at each epoch in the `../saved_models/` directory.
+- Expected run time for demo on a "normal" desktop computer about 7-15 days.
 
 ## 4. MetLLM Evaluation
 ----------------------------
@@ -35,6 +36,7 @@ After training, you can evaluate SMILES strings using the scoring script: `pytho
   - `../data/Smiles_Input.txt` (SMILES strings to score)
 - Outputs:
   - `../result/Smiles_Input_scores_test.txt` (SMILES with their scores)
+- Expected run time for demo on a "normal" desktop computer about 5-10 min.
 
 The scoring method:
 - Computes the probability of each SMILES under the model.
