@@ -50,7 +50,7 @@ The scoring method:
 
 ## 6. AttenRT
 ---------------------
-- Two-Stage AttenRT Model for Retention Time Prediction (https://github.com/Tianbiao-Yang/AttenRT)
+- Two-Stage AttenRT Model for Retention Time Prediction (https://github.com/Tianbiao-Yang/AttenRT) was in the `./code/AttenRT` directory.
 
 ## 7. Contact
 ----------
