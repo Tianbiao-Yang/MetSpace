@@ -1,10 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-@Time:Created on 2020/4/27 13:41
-@author: LiFan Chen
-@Filename: model.py
-@Software: PyCharm
-"""
+
 import torch
 import torch.nn as nn
 import torch.optim as optim
