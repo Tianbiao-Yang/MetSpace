@@ -48,9 +48,10 @@ The scoring method:
 - Install dependencies: To set up the environment, you can utilize the `./code/metspace.yaml` file, representing the conda environment for this project (`conda env create -f ./code/metspace.yaml`). Alternatively, you have the option to deploy the environment using the `./code/metspace.txt` file.
 - Typical installation on a standard desktop computer takes about one to two hours.
 
-## 6. AttenRT
+## 6. AttenRT and BA Receptor
 ---------------------
-- Two-Stage AttenRT Model for Retention Time Prediction (https://github.com/Tianbiao-Yang/AttenRT) was in the `./code/AttenRT` directory.
+- Two-Stage AttenRT Model for Retention Time Prediction was in the `./code/AttenRT` directory.
+- AI-based pharmacological screening of MS2141 against BA-related receptors was in the `./code/BAReceptor` directory.
 
 ## 7. Contact
 ----------
