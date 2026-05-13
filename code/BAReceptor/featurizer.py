@@ -1,10 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-@Time:Created on 2020/4/27 14:19
-@author: LiFan Chen
-@Filename: featurizer.py
-@Software: PyCharm
-"""
+
 import numpy as np
 from rdkit import Chem
 from tape import TAPETokenizer
