@@ -72,7 +72,8 @@ if __name__ == "__main__":
         device = torch.device('cpu')
         print('The code uses CPU!!!')
 
-    model = torch.load('/home/Desktop/MetSpace/BAReceptor/MS2141_Receptor.pt')  # Load trained model, The size of this model is 633MB, which exceeds the upload file limit. Interested individuals can contact the author directly. Thank you.
+    model = torch.load('/home/Desktop/MetSpace/BAReceptor/MS2141_Receptor.pt')  # Load trained model, 
+    # The size of this model is 633MB, which exceeds the upload file limit. You can download on Zenodo (https://doi.org/10.5281/zenodo.20728614). Thank you.
     # model.to(device)
     sequence = "MNNSTNSSNNSLALTSPYKTFEVVFIVLVAGSLSLVTIIGNILVMVSIKVNRHLQTVNNYFLFSLACADLIIGVFSMNLYTLYTVIGYWPLGPVVCDLWLALDYVVSNASVMNLLIISFDRYFCVTKPLTYPVKRTTKMAGMMIAAAWVLSFILWAPAILFWQFIVGVRTVEDGECYIQFFSNAAVTFGTAIAAFYLPVIIMTVLYWHISRASKSRIKKDKKEPVANQDPVSPSLVQGRIVKPNNNNMPSSDDGLEHNKIQNGKAPRDPVTENCVQGEEKESSNDSTSVSAVASNMRDDEITQDENTVSTSLGHSKDENSKQTCIRIGTKTPKSDSCTPTNTTVEVVGSSGQNGDEKQNIVARKIVKMTKQPAKKKPPPSREKKVTRTILAILLAFIITWAPYNVMVLINTFCAPCIPNTVWTIGYWLCYINSTINPACYALCNATFKKTFKHLLMCHYKNIGATR" # Example protein sequence
     smiles = "C[C@@H]([C@H]1CC[C@H]2[C@@H]3[C@H](C[C@@H]4C[C@@H](CC[C@@]4([C@H]3CC[C@]12CO)C)O)O)CCC(O)=O" # Example compound
