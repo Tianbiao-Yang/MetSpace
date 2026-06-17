@@ -2,11 +2,10 @@
 
 AI-Driven Reconstruction of the Human Bile Acid Sub-Metabolome.
 
-This project provides tools for training a transformer-based model (GPT-2) to generate and evaluate SMILES strings, which are representations of chemical molecules. It includes scripts for data preprocessing, model training, fine-tuning, and scoring SMILES strings based on their likelihood under the trained model.
 
 ## 1. Project Overview
 -------------------
-The goal of this project is to develop a generative model for chemical structures represented as SMILES strings. The model can be trained on a dataset of molecules, fine-tuned for specific datasets, and used to evaluate the quality of SMILES strings by calculating a score indicating their likelihood.
+Bile acids (BAs) represent one of nature's most chemically diverse and therapeutically important metabolite families. However, the mammalian bile acid (BA) sub-metabolome remains largely uncharted, with analytical limitations obscuring potentially thousands of biologically active species present in cells and biofluids. Here, we present MetLLM, a transformer-based language model that decoded the bile acid chemical space to generate 3,900 candidate BA analogues, many with previously undetected or uncharacterized structures. Our AI-driven platform MetSpace reveals extensive structural diversity, including potential modification patterns absent from current databases. Experimental validation in human feces confirmed multiple new BAs, establishing MetSpace as a resource for BA discovery. Functional validation of novel BA, MS2141, revealed its capacity to modulate M2 receptor-associated Gi/o signaling and alter key electrophysiological parameters in human iPSC-derived cardiomyocytes. This work expands the searchable scope of the BA metabolome and provides a computational framework for systematic metabolite exploration..
 
 ## 2. Data Preparation
 -------------------
