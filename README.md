@@ -5,7 +5,7 @@ AI-Driven Reconstruction of the Human Bile Acid Sub-Metabolome.
 
 ## 1. Project Overview
 -------------------
-Bile acids (BAs) represent one of nature's most chemically diverse and therapeutically important metabolite families. However, the mammalian bile acid (BA) sub-metabolome remains largely uncharted, with analytical limitations obscuring potentially thousands of biologically active species present in cells and biofluids. Here, we present MetLLM, a transformer-based language model that decoded the bile acid chemical space to generate 3,900 candidate BA analogues, many with previously undetected or uncharacterized structures. Our AI-driven platform MetSpace reveals extensive structural diversity, including potential modification patterns absent from current databases. Experimental validation in human feces confirmed multiple new BAs, establishing MetSpace as a resource for BA discovery. Functional validation of novel BA, MS2141, revealed its capacity to modulate M2 receptor-associated Gi/o signaling and alter key electrophysiological parameters in human iPSC-derived cardiomyocytes. This work expands the searchable scope of the BA metabolome and provides a computational framework for systematic metabolite exploration..
+Here, we present MetLLM, a transformer-based language model that decoded the bile acid chemical space to generate 3,900 candidate BA analogues, many with previously undetected or uncharacterized structures. Our AI-driven platform MetSpace reveals extensive structural diversity, including potential modification patterns absent from current databases. Experimental validation in human feces confirmed multiple new BAs, establishing MetSpace as a resource for BA discovery.
 
 ## 2. Data Preparation
 -------------------
