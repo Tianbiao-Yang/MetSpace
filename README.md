@@ -54,6 +54,5 @@ The scoring method:
 
 ## 7. Contact
 ----------
-The code repository is available at https://doi.org/10.5281/zenodo.20320639 on Zenodo. For questions or feedback, please contact: tianbiao@hku.hk. In addition, I am very grateful to my friend Dr. Feisheng Zhong for helpful discussions on the framework.
-
+The code repository is available at https://doi.org/10.5281/zenodo.20320639 on Zenodo. For questions or feedback, please contact: tianbiao@hku.hk.
 
