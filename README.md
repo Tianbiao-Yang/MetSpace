@@ -39,7 +39,7 @@ After training, you can evaluate SMILES strings using the scoring script: `pytho
 
 The scoring method:
 - Computes the probability of each SMILES under the model.
-- Normalizes the scores to a 0-1 range, where higher scores suggest better likelihood.
+- The scores to a 0-1 range, where higher scores suggest better likelihood.
 
 ## 5. Environment Setup
 ---------------------
