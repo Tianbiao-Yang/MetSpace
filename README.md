@@ -5,7 +5,7 @@ AI-guided discovery and expansion of the human bile acid landscape
 
 ## 1. Project Overview
 -------------------
-Here, we present MetLLM, a transformer-based language model that learns bile acid modification patterns to prioritize candidate bile acid analogues, and MetSpace, an in silico bile acid chemical landscape containing 3,900 prioritized candidates. Liquid chromatography–high resolution mass spectrometry analysis of human feces confirmed multiple newly detected and structurally novel bile acids, including MS2141 and MS1281. In vitro functional validation showed that MS2141 modulates M2 muscarinic receptor-associated inhibitory G protein signaling and alters electrophysiological parameters in human induced pluripotent stem cell-derived cardiomyocytes. This work expands the searchable bile acid metabolome and provides a computational framework for systematic metabolite discovery.
+Here, MetLLM is a transformer-based language model for discovering novel bile acid analogues by learning bile acid modification patterns. This repository provides the code and resources for MetLLM, together with MetSpace, an in silico bile acid chemical landscape containing 3,900 prioritized candidates. The framework supports systematic expansion and exploration of the searchable bile acid metabolome.
 
 
 ## 2. Data Preparation
