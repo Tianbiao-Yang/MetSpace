@@ -45,5 +45,5 @@ The scoring method:
 
 ## 6. Contact
 ----------
-For questions or feedback, please contact: tianbiao_yang@126.com.
+For questions or feedback, please contact: tianbiao_yang at 126 dot com.
 
