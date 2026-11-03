@@ -43,7 +43,27 @@ The scoring method:
 - Two-Stage AttenRT Model for Retention Time Prediction was in the `./code/AttenRT` directory.
 - AI-based pharmacological screening of MS2141 against BA-related receptors was in the `./code/BAReceptor` directory.
 
-## 6. Contact
+## 6. Citation
+---------------------
+If you use this MetLLM/MetSpace in your research, please cite the related manuscript:
+
+> Yang, T., Yao, C., Kuang, J., Wang, L., Zhao, A., Zheng, D., Chen, Y., Liu, L., Zhang, Q., Chen, T., Lan, K., Wang, Z., Nicholson, J. K., Zheng, W., Lyu, A., Leung, G. P., & Jia, W. (2026). _AI-guided discovery and expansion of the human bile acid landscape_. Cell Metabolism. Advance online publication. https://doi.org/10.1016/j.cmet.2026.09.024
+
+### BibTeX
+
+```bibtex
+@article{yang_2026_bile_acid_landscape,
+  author  = {Yang, Tianbiao and Yao, C. and Kuang, J. and Wang, L. and Zhao, A. and Zheng, D. and Chen, Y. and Liu, L. and Zhang, Q. and Chen, T. and Lan, K. and Wang, Z. and Nicholson, Jeremy K. and Zheng, W. and Lyu, A. and Leung, George P. and Jia, Wei},
+  title   = {AI-guided discovery and expansion of the human bile acid landscape},
+  journal = {Cell Metabolism},
+  year    = {2026},
+  doi     = {10.1016/j.cmet.2026.09.024},
+  pmid    = {42945968},
+  note    = {Epub ahead of print}
+}
+```
+
+## 7. Contact
 ----------
 For questions or feedback, please contact: tianbiao_yang at 126 dot com.
 
